@@ -132,6 +132,9 @@
 		62512CA71F0EB1BD0083A89F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62512CA61F0EB1BD0083A89F /* RxTest.framework */; };
 		6662395E1E9E0950009BB134 /* Materialized+elementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662395D1E9E0950009BB134 /* Materialized+elementsTests.swift */; };
 		66C663061EA0ECD9005245C4 /* materialized+elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C663051EA0ECD9005245C4 /* materialized+elements.swift */; };
+		6CFE238821A19930005FF778 /* flatMapObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE238721A19930005FF778 /* flatMapObservable.swift */; };
+		6CFE238921A1995A005FF778 /* flatMapObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE238721A19930005FF778 /* flatMapObservable.swift */; };
+		6CFE238A21A1995B005FF778 /* flatMapObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE238721A19930005FF778 /* flatMapObservable.swift */; };
 		780CB21520A0ED1C00FD3F39 /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CB21420A0ED1C00FD3F39 /* toSortedArray.swift */; };
 		780CB21620A0ED1C00FD3F39 /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CB21420A0ED1C00FD3F39 /* toSortedArray.swift */; };
 		780CB21720A0ED1C00FD3F39 /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CB21420A0ED1C00FD3F39 /* toSortedArray.swift */; };
@@ -327,6 +330,7 @@
 		62512CA61F0EB1BD0083A89F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
 		6662395D1E9E0950009BB134 /* Materialized+elementsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Materialized+elementsTests.swift"; sourceTree = "<group>"; };
 		66C663051EA0ECD9005245C4 /* materialized+elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "materialized+elements.swift"; path = "Source/RxSwift/materialized+elements.swift"; sourceTree = SOURCE_ROOT; };
+		6CFE238721A19930005FF778 /* flatMapObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatMapObservable.swift; sourceTree = "<group>"; };
 		780CB21420A0ED1C00FD3F39 /* toSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toSortedArray.swift; sourceTree = "<group>"; };
 		780CB21820A0ED3B00FD3F39 /* ToSortedArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToSortedArrayTests.swift; sourceTree = "<group>"; };
 		780CB21C20A0EE8300FD3F39 /* MapManyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManyTests.swift; sourceTree = "<group>"; };
@@ -494,6 +498,7 @@
 				5386079D1E6F334B000361DE /* distinct.swift */,
 				98309EB01EDF159500BD07D9 /* filterMap.swift */,
 				98309EAE1EDF14AC00BD07D9 /* flatMapSync.swift */,
+				6CFE238721A19930005FF778 /* flatMapObservable.swift */,
 				BF515CE11F3F371600492640 /* fromAsync.swift */,
 				5386079E1E6F334B000361DE /* ignore.swift */,
 				5386079F1E6F334B000361DE /* ignoreErrors.swift */,
@@ -999,6 +1004,7 @@
 				BF79DA0A206C145D008AA708 /* withUnretained.swift in Sources */,
 				BF515CE01F3F370600492640 /* curry.swift in Sources */,
 				1958B5F1216768D900CAF1D3 /* unwrap+SharedSequence.swift in Sources */,
+				6CFE238821A19930005FF778 /* flatMapObservable.swift in Sources */,
 				5A1DDEBF1ED58F8600F2E4B1 /* pausableBuffered.swift in Sources */,
 				BF515CE21F3F371600492640 /* fromAsync.swift in Sources */,
 				DC612872209E80810053CBB7 /* mapMany.swift in Sources */,
@@ -1070,6 +1076,7 @@
 				C4D2154520118FC1009804AE /* ofType.swift in Sources */,
 				62512C6E1F0EAF950083A89F /* ignore.swift in Sources */,
 				3D11958B1FCAD9AE0095134B /* and.swift in Sources */,
+				6CFE238921A1995A005FF778 /* flatMapObservable.swift in Sources */,
 				62512C781F0EAF950083A89F /* repeatWithBehavior.swift in Sources */,
 				62512C731F0EAF950083A89F /* not.swift in Sources */,
 				D7C72A431FDC5D8F00EAAAAB /* nwise.swift in Sources */,
@@ -1149,6 +1156,7 @@
 				C4D2154620118FC1009804AE /* ofType.swift in Sources */,
 				E39C41DF1F18B08A007F2ACD /* ignore.swift in Sources */,
 				3D11958C1FCAD9AF0095134B /* and.swift in Sources */,
+				6CFE238A21A1995B005FF778 /* flatMapObservable.swift in Sources */,
 				E39C41E91F18B08A007F2ACD /* repeatWithBehavior.swift in Sources */,
 				E39C41E41F18B08A007F2ACD /* not.swift in Sources */,
 				D7C72A441FDC5D8F00EAAAAB /* nwise.swift in Sources */,
